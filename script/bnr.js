@@ -1,5 +1,4 @@
 function Bnr (obj) {
-	console.log(obj);
 	this.parents = obj.elem;
 	this.arr_src = obj.img_src;
 	this.url_site = obj.url_site;
@@ -29,7 +28,6 @@ Bnr.prototype = {
 		if(!this.arr_src[last_index]) last_index = null;
 		var num = this.nextIdBanner(last_index);
 		var url = this.arr_src[num];
-		console.log(url);
 		this.div_cont_ban.style.backgroundImage = 'url('+url+')';
 		localStorage.setItem('id_bnr', num);
 
