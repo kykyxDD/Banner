@@ -1,24 +1,24 @@
-#banner {
+#bnr {
 	
 }
-#banner a {
+#bnr a {
 	display: block;
 	height: 100%;
 	width: 100%;
 }
-#banner a .cont_ban {
+#bnr a .cont_ban {
 	width: 100%;
 	height: 100%;
 	position: relative;
 	background-size: cover;
 	background-position: center;
 }
-#banner a .cont_ban .btn {
+#bnr a .cont_ban .btn {
 	position: absolute;
 	width: 130px;
 	height: 30px;
 	bottom: 30px;
-	background: url(../img/btn_banner.jpg) center no-repeat;
+	background: url(../img/btn_bnr.jpg) center no-repeat;
 	background-size: cover;
 	left: 50%;
 	margin-left: -65px;

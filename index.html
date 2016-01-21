@@ -2,21 +2,22 @@
 <html>
 <head>
 	<title></title>
-	<script src='./script/banner.js'></script>
-	<link rel="stylesheet" type="text/css" href="./style/banner.css">
+	<script src='./script/bnr.js'></script>
+	<link rel="stylesheet" type="text/css" href="./style/bnr.css">
 </head>
 <body>
-	<div id="banner">
+	<div id="bnr">
 		<script type="text/javascript">
-			var elem = document.getElementById('banner');
+			var elem = document.getElementById('bnr');
 			var obj = {
 				elem: elem,
-				img_src: ['./img/banner_1.jpg','./img/banner_2.jpg'],
+				img_src: ['./img/bnr_1.jpg','./img/bnr_2.jpg'],
 				url_site: 'http://ps.animevost.org',
 				w: 260,
 				h: 400
 			};
-			var bnr = new Banner(obj);
+			console.log(elem)
+			var bnr = new Bnr(obj);
 		</script>
 	</div>
 </body>

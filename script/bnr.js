@@ -1,4 +1,4 @@
-function Banner (obj) {
+function Bnr (obj) {
 	console.log(obj);
 	this.parents = obj.elem;
 	this.arr_src = obj.img_src;
@@ -8,7 +8,7 @@ function Banner (obj) {
 	this.createElemBan();
 	this.loadImgBanner();
 }
-Banner.prototype = {
+Bnr.prototype = {
 	createElemBan: function(){
 		var elem = this.parents;
 		var link = document.createElement('a');
